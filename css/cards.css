@@ -13,13 +13,11 @@ body {
 
 /* Card container */
 .MuiBox-root.css-1o7r9kk {
-  border-color: rgb(39, 117, 202);
-  border-width: 2px;
+  border-color: var(--highlight-color);
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
-  --tw-gradient-from: rgb(39 117 202 / 0.5) var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(39 117 202/ 0.2) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  box-shadow: 0 0 100px rgba(39, 117, 202, 1);
+  --tw-gradient-from: var(--highlight-color);
+  --tw-gradient-to: rgba(255, 216, 25, 0.2); /* Adjust the alpha value as needed */
+  box-shadow: 0 0 100px var(--highlight-color);
   border-radius: 8px;
   padding: 20px;
   width: 300px;
@@ -30,7 +28,7 @@ body {
   -webkit-backdrop-filter: blur(10px);
 }
 
-.MuiBox-root.css-1o7r9kk:hover {
+:hover {
   transform: scale(1.05);
   /* Zoom-in by 5% on hover */
 }
@@ -127,9 +125,9 @@ body {
   font-weight: bold;
 }
 
-.signup-button:hover {
-  background-color: #000;
-  color: #2775ca;
+.signup-button {
+  background-color: var(--highlight-color);
+  color: var(--primary-color);
   /* Keeps the text color white on hover */
   text-decoration: none;
   /* Ensures the underline doesn't appear on hover */
