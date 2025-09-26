@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-  background-image: url("/assets/image.jpg");
+  background-image: url("https://i.ibb.co/MH24chQ/image.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
