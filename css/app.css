@@ -2678,12 +2678,11 @@ p[data-v-fde7816e] {
 :root {
   --primary-color: #1a1d20;
   --secondary-color: #1f2225;
-  --background-color: #1a1d20;
+  --background-color: rgb(21, 23, 25);
   --box-color: rgba(57, 60, 64, 0.2);
   --text-color: #838b8d;
   --text-title-color: #effafb;
-  /* Updated highlight color to match the yellow from the logo */
-  --highlight-color: #ffd819;
+  --highlight-color: #b66bf0;
 }
 
 :root,
@@ -2696,7 +2695,6 @@ p[data-v-fde7816e] {
 :root .app-csgo {
   --highlight-color: #ffd819;
 }
-
 
 ::-webkit-scrollbar {
   display: none !important;
